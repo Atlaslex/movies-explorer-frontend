@@ -5,7 +5,7 @@
   position: relative;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:319px) {
   .page {
     background-image: url(../../images/warning.png);
     background-repeat: round;

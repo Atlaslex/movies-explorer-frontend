@@ -63,7 +63,7 @@
 
 .form__input-container {
   border: none;
-  margin-top: 123px;
+  margin-top: 80px;
 }
 
 .form__item {
@@ -136,4 +136,20 @@
 
 @media screen and (max-width: 481px) {}
 
-@media screen and (max-width: 321px) {}
+@media screen and (max-width: 320px) {
+  .form {
+    justify-content: flex-start;
+  }
+
+  .form__title {
+    margin-top: 144px;
+  }
+
+  .form__label_el_handlers {
+    margin-top: 157px;
+    
+  }
+  .form__handlers {
+  font-size: 12px;
+}
+}

@@ -42,7 +42,7 @@
 }
 
 .project-description {
-  background-color: #000;
+  background-color: #202020;
   display: flex;
   flex-direction: column
 }
@@ -108,6 +108,17 @@
     margin-top: 60px
   }
 
+  .graph__column {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  }
+  
+  .graph__time {
+    margin-bottom: 10px;
+  }
+
   .graph__column_back-end {
     width: 100px
   }
@@ -130,7 +141,7 @@
   }
 
   .table__column-stages {
-    margin-bottom: 56px
+    margin-bottom: 15px
   }
 
   .table__description {
@@ -145,6 +156,12 @@
 
   .section-title_about-project {
     margin-bottom: 28px;
-    margin-top: 70px
+    margin-top: 117px
   }
+
+  .section-title {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
 }

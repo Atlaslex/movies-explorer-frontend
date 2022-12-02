@@ -7,11 +7,6 @@ width: 100%;
   justify-content: center;
 }
 
-/* .btns-block__list:nth-child(2) {
-
-  justify-content: center
-  } */
-
 .btns-block__link_login-btn {
   margin: 0 0 0 30px;
   padding: 8px 0;
@@ -26,3 +21,12 @@ width: 100%;
   display: block;
 }
 
+@media screen and (max-width: 320px) {
+
+  .btns-block__list {
+    justify-content: flex-start;
+   
+  }
+  
+
+}

@@ -106,5 +106,12 @@
 
   }
 
+  .section-subtitle {
+    font-size: 14px;
+  }
+
+  .portfolio {
+    margin-top: 24px;
+  }
 
 }

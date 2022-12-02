@@ -104,6 +104,17 @@
   }
 }
 
+
+@media screen and (max-width: 320px) {
+
+  .btns-block__list_res-menu
+   {
+    padding-top: 160px;
+    width: 100vw;
+  }
+
+}
+
 @media screen and (max-width: 480px) {
 
   .btns-block__list_res-menu,
@@ -126,6 +137,8 @@
 
   }
 
+
+  
   #res-menu__toggle:checked+.res-menu__btn>span::before {
     display: none
   }
@@ -203,4 +216,12 @@
     bottom: 99px;
 
   }
+}
+
+@media screen and (max-width: 320px) {
+
+  .btns-block__link {
+    margin-top: 24px;
+  }
+
 }

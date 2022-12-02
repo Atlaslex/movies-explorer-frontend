@@ -96,8 +96,13 @@
     font: normal 400 18px/1.22 Inter, Arial, sans-serif;
   }
 
+  .techs__name {
+    font-weight: 400;
+    font-size: 30px;
+  }
+
   .section-title_techs {
-    margin-top: 70px;
+    margin-top: 94px;
     margin-bottom: 28px;
   }
 

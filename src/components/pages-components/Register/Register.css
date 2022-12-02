@@ -10,15 +10,16 @@
   justify-content: center;
   min-height: 45px;
   width: 100%;
-  background-color: #202020;
+  background-color: #4285F4;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
+  border-radius: 3px;
 }
 
 .form__button_el_button[disabled] {
-  background-color: #4285F4;
+  background-color: #202020;
 }
 
 .form__container_type_auth {
@@ -72,10 +73,10 @@
   font-size: 24px;
 }
 
-.form__input-container_type_auth {
+/* .form__input-container_type_auth {
   margin: 0;
   padding: 0 0 140px
-}
+} */
 
 .form__item_el_email_type_auth {
   font-weight: 500
@@ -102,10 +103,10 @@
   border-color: #4285f4
 }
 
-.form__login-link {
+/* .form__login-link {
   color: #4285F4;
   font: normal 400 14px/1.21 Inter, Arial, sans-serif
-}
+} */
 
 .form__question {
   margin-right: 6px;
@@ -157,4 +158,18 @@
   .form__heading_type_auth {
     margin: 20px 0;
   }
+}
+
+@media screen and (max-width: 320px) {
+  
+
+  .form__heading_type_auth {
+    margin: 50px 0 0;
+    text-align: center;
+  }
+
+  .form__button_el_button {
+    font-size: 12px;
+  }
+
 }

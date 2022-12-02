@@ -28,5 +28,7 @@
 @media screen and (max-width: 321px) {
   .btns-block__link {
     margin-right: 0;
+    right: 80px;
+    top: 683px;
   }
 }
