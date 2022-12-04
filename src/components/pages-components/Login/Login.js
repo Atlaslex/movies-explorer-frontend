@@ -54,7 +54,7 @@ function Login(props) {
               </span>
             </label>
             <label className='form__label  form__label_type_auth'>
-              <span className='form__text form__text_type_auth'></span>
+              <span className='form__text form__text_type_auth'>Пароль</span>
               <input
                 className='form__item form__item_type_auth form__item_el_name form__item_el_name_type_auth'
                 name='password'

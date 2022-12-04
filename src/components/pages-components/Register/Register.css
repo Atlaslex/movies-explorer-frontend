@@ -1,5 +1,6 @@
 .form__header_type_auth {
   margin: 0 auto;
+  margin-top: 70px;
   width: 396px;
 }
 
@@ -123,13 +124,19 @@
 }
 
 .line_form_type_auth {
-  margin: 10px 0 6px
+  margin: 10px 0 10px
 }
 
 @media screen and (max-width: 769px) {
   .form__container_type_auth {
     width: 100%
   }
+
+  .form__header_type_auth {
+        margin-top: 232px;
+      }
+  
+
 }
 
 @media screen and (max-width: 481px) {

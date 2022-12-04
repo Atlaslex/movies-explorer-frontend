@@ -37,6 +37,7 @@
   .footer {
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 80px;
   }
 }
 
@@ -47,10 +48,11 @@
   }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 340px) {
 
   .footer {
     padding-top: 0px;
+    max-width: 320px;
   }
 
   .footer__title {

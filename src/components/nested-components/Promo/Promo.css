@@ -40,10 +40,12 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    min-height: 924px;
   }
 
   .project-poster__title {
     margin: auto 19px;
+    
   }
 
   .project-poster__back-image {
@@ -51,6 +53,7 @@
     top: 0;
     display: flex;
     align-items: center;
+    margin-top: 297px;
   }
 
 
@@ -96,10 +99,11 @@
 
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 320px) {
   .project-poster {
     padding-left: 10px;
     padding-right: 10px;
+    min-height: 510px;
   }
 
   .project-poster__back-image {

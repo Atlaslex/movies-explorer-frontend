@@ -21,12 +21,16 @@ width: 100%;
   display: block;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
 
   .btns-block__list {
     justify-content: flex-start;
    
   }
   
+  .btns-block__link_login-btn {
+    margin-left: 0;
+   
+  }
 
 }

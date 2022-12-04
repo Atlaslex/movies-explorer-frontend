@@ -21,8 +21,20 @@
 
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 769px) {
+    .btns-block__link {
+        margin-left: 0;
+    }
+
+    .btns-block__link_active {
+        border-bottom-style: solid;
+    }
+
+}
+
+
+/* @media screen and (max-width: 321px) {
     .btns-block__link {
         margin-left: 32px;
     }
-  }
+  } */

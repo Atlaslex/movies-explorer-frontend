@@ -23,3 +23,12 @@
   margin-top: 50px;
   line-height: 35px;
 }
+
+@media screen and (max-width: 769px) {
+
+  .movies-list  {
+    grid-template-columns: repeat(auto-fit, 339px);
+    
+  }
+
+}

@@ -3,7 +3,7 @@
   max-height: 217px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .search__search-movie-container {
@@ -14,6 +14,10 @@
   height: 46px;
   background: #2F2F2F;
   border-radius: 40px;
+}
+
+.search__input-container_film {
+  width: 100%;
 }
 
 .line_search {
@@ -55,7 +59,16 @@
   width: 100%;
 } */
 
-@media screen and (max-width: 769px) {}
+@media screen and (max-width: 769px) {
+
+  .search__search-movie-container {
+        margin-top: 80px;
+   
+    
+  }
+
+  
+}
 
 @media screen and (max-width: 601px) {}
 

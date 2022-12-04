@@ -1,5 +1,5 @@
 .card-movie {
-  width: 364px;
+  max-width: 364px;
   height: 271px;
   display: flex;
   justify-content: flex-start;
@@ -40,10 +40,11 @@
 .card-movie__overlay:hover {
   opacity: 1;
 }
+
 .card-movie__title {
   margin-bottom: 9px;
   width: 280px;
-   font: normal 500 15px/1.2 Inter, Arial, sans-serif;
+  font: normal 500 15px/1.2 Inter, Arial, sans-serif;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -52,18 +53,19 @@
 .card-movie__duration {
   font: normal 400 11px/1.18 Inter, Arial, sans-serif;
 
-  
+
   display: flex;
 }
 
-.card-movie__link{
+.card-movie__link {
   position: relative;
 }
-.card-movie__image{
+
+.card-movie__image {
   height: 203px;
 }
 
-.card-movie__flag{
+.card-movie__flag {
   width: 30px;
   height: 30px;
   border: none;
@@ -71,12 +73,12 @@
   top: 19px;
   right: 14px;
   background-color: transparent;
-    background-image: url(../../../images/flag-grey.svg);
+  background-image: url(../../../images/flag-grey.svg);
   cursor: pointer;
 }
 
 .card-movie__flag_active {
-background-image: url(../../../images/flag-green.svg);
+  background-image: url(../../../images/flag-green.svg);
 }
 
 .card-movie__flag:hover {
@@ -96,10 +98,35 @@ background-image: url(../../../images/flag-green.svg);
   cursor: pointer;
 }
 
-@media screen and (max-width: 769px) {}
+@media screen and (max-width: 769px) {
+
+  .card-movie {
+    max-width: 339px;
+    height: 100%;
+    
+  }
+
+}
 
 @media screen and (max-width: 601px) {}
 
 @media screen and (max-width: 481px) {}
 
-@media screen and (max-width: 321px) {}
+@media screen and (max-width: 390px) {
+
+  .card-movie {
+    max-width: 300px;
+    height: 100%;
+  }
+
+  .card-movie__title {
+        width: 220px;
+    
+  }
+
+  .card-movie__overlay {
+    width: 300px;
+    
+  }
+
+}

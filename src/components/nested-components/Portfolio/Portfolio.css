@@ -58,7 +58,20 @@
   .project-portfolio {
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 90px;
+    
   }
+
+  .portfolio__link {
+    font-size: 28px;
+
+  }
+
+  .portfolio__item {
+    padding-bottom: 22px;
+  }
+
+  
 }
 
 
@@ -112,6 +125,10 @@
 
   .portfolio {
     margin-top: 24px;
+  }
+
+  .portfolio__item {
+    padding-bottom: 18px;
   }
 
 }
