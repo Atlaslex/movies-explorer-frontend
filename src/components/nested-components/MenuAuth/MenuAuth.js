@@ -4,7 +4,7 @@ import MenuAuthBtnsList from "../MenuAuthBtnsList/MenuAuthBtnsList";
 
 function MenuAuth() {
   return (
-    <div className='auth navbar '>
+    <div className='auth navbar  '>
       <MenuAuthBtnsList />
     </div>
   );

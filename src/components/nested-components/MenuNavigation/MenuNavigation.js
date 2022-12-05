@@ -4,7 +4,7 @@ import MenuNavBtnsList from "../MenuNavBtnsList/MenuNavBtnsList";
 
 function MenuNavigation() {
   return (
-    <div className=' navigation navbar'>
+    <div className=' navigation navbar btns-block'>
       <MenuNavBtnsList />
     </div>
   );

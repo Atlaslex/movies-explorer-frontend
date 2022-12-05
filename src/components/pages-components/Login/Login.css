@@ -6,7 +6,7 @@
 .form__input-container_type_auth_type_login {
   /* margin-top: 50px; */
   /* margin: 0; */
-  padding-bottom: 202px
+  padding-bottom: 198px
 }
 
 .form__header_type_auth {
@@ -113,6 +113,7 @@
     width: 100%
   }
 
+  
 }
 
 
@@ -154,17 +155,19 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 324px) {
   .form__label_type_auth {
-    margin-bottom: 5px;
+    margin-bottom: 2px;
   }
 
   .form__input-container_type_auth_type_login {
-    padding-bottom: 300px;
+    padding-bottom: 285px;
+    margin-top: 80px;
   }
 
   .form__header_type_auth {
     padding-top: 56px;
+    margin-top: 0;
   }
 
   .form__question {
@@ -175,6 +178,6 @@
     font-size: 12px;
   }
 
-  
-  
+
+
 }

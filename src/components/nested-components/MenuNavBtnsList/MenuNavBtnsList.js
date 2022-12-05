@@ -6,6 +6,7 @@ function MenuNavBtnsList() {
   return (
     <nav
       className='
+      
       btns-block__list_res-menu
       btns-block__list
       btns-block__list_type_navigation

@@ -3,7 +3,7 @@ import "./Techs.css";
 
 export const Techs = () => {
   return (
-    <section className='project-technologies sp techs' id='techs'>
+    <section className='section-table project-technologies sp techs' id='techs'>
       <h2 className='techs__title section-title section-title_techs'>
         Технологии
       </h2>

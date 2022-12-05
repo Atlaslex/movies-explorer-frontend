@@ -4,10 +4,10 @@ import "./MenuNavTab.css";
 
 function MenuNavTab() {
   return (
-    <div className=' navbar '>
+    <div className='btns-block navtab navbar '>
       <nav
         className='
-      navtab  
+      
            navbar_type_el-navtab     
             btns-block__list 
             navtab__btns

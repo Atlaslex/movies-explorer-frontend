@@ -16,10 +16,11 @@
 }
 
 .movies__attention {
+  font-family: 'Inter';
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
-  font-size: 24px;
+  font-size: 16x;
   margin-top: 50px;
   line-height: 35px;
 }

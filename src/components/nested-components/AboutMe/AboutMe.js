@@ -4,7 +4,7 @@ import avatar from "../../../images/owner.png";
 
 export const AboutMe = () => {
   return (
-    <section className='project-owner sp' id='student'>
+    <section className='owner project-owner sp' id='student'>
       <h2 className='project-owner__title section-title section-title_owner'>
         Студент
       </h2>

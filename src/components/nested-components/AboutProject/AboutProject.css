@@ -104,7 +104,7 @@
   }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 324px) {
   .graph {
     font: normal 400 11px/1.8 Inter, Arial, sans-serif;
     height: 35px;

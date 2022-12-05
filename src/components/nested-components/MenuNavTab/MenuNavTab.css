@@ -32,17 +32,17 @@
     font-size: 11px;
     line-height: 1.45;
     /* padding-top: 74px; */
-    
+
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 324px) {
   .navbar_type_el-navtab {
     position: absolute;
-  top: 644px;
-  align-content: center;
-  gap: 24px;
-  font-size: 11px;
-    
+    top: 644px;
+    align-content: center;
+    gap: 24px;
+    font-size: 11px;
+
   }
 }

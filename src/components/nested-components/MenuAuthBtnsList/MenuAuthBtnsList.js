@@ -28,7 +28,9 @@ function MenuAuthBtnsList() {
       </Link>
 
       <Link
-        className='btns-block__link_login-btn
+        className='
+        
+        btns-block__link_login-btn
             btns-block__link
              btns-block 
              '

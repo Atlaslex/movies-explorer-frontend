@@ -15,7 +15,7 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 14px;
   border-radius: 3px;
 }
 
@@ -133,9 +133,12 @@
   }
 
   .form__header_type_auth {
-        margin-top: 232px;
-      }
-  
+    margin-top: 232px;
+  }
+
+  .form__button_el_button {
+    font-size: 13px;
+  }
 
 }
 
@@ -145,6 +148,11 @@
     justify-content: center;
     width: 100%;
   }
+
+  .form__heading_type_auth {
+    text-align: center;
+  }
+
 }
 
 @media screen and (max-height: 769px) {
@@ -167,16 +175,27 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  
+@media screen and (max-width: 324px) {
+
 
   .form__heading_type_auth {
     margin: 50px 0 0;
     text-align: center;
+
   }
 
   .form__button_el_button {
     font-size: 12px;
   }
+
+  .form__header_type_auth {
+    margin-top: 0px;
+  }
+
+  .form__input-container_type_auth {
+    margin-top: 78px;
+    padding-bottom: 215px;
+  }
+
 
 }

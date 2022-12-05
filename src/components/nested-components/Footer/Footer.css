@@ -25,7 +25,15 @@
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  
+
+}
+
+.footer__copyright {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
 }
 
 .social-nets_footer {

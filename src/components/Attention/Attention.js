@@ -5,8 +5,8 @@ export const Attention = ({ isActiveAttention, messageAttention }) => {
     <div
       className={
         isActiveAttention
-          ? "attention attention__container"
-          : "attention attention__container_hidden"
+          ? "attention__container"
+          : "attention__container_hidden"
       }
     >
       <div className='attention'>
