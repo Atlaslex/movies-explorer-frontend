@@ -1,0 +1,40 @@
+.btns-block__link {
+    font-weight: 500;
+    font-size: 12px;
+    /* margin-right: 16px; */
+    margin-left: 16px;
+
+}
+
+/* .btns-block__link:last-child {
+    justify-content: flex-end;
+} */
+
+
+.btns-block__link_active {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.btns-block__link:first-child {
+    display: none;
+
+}
+
+@media screen and (max-width: 769px) {
+    .btns-block__link {
+        margin-left: 0;
+    }
+
+    .btns-block__link_active {
+        border-bottom-style: solid;
+    }
+
+}
+
+
+/* @media screen and (max-width: 321px) {
+    .btns-block__link {
+        margin-left: 32px;
+    }
+  } */

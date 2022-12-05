@@ -1,0 +1,36 @@
+
+.btns-block__list {
+
+width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns-block__link_login-btn {
+  margin: 0 0 0 30px;
+  padding: 8px 0;
+  background-color: #3ddc84;
+  min-width: 76px;
+  text-align: center;
+  border-radius: 3px;
+  color: #000;
+}
+
+.btns-block__link_signup-btn:first-child {
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+
+  .btns-block__list {
+    justify-content: flex-start;
+   
+  }
+  
+  .btns-block__link_login-btn {
+    margin-left: 0;
+   
+  }
+
+}

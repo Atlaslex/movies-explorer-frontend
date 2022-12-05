@@ -1,0 +1,34 @@
+.navigation {
+  /* display: none; */
+  font: normal 400 14px/1.29 Inter, Arial, sans-serif;
+}
+
+.btns-block__link:first-child {
+
+  display: none;
+
+}
+
+
+
+.accaunt-btn {
+  position: absolute;
+  right: 56px;
+  content: url(../../../images/profile.svg);
+
+}
+
+@media screen and (max-width: 769px) {
+  .navigation {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 321px) {
+  .btns-block__link {
+    margin-right: 0;
+    right: 80px;
+    top: 683px;
+  }
+}
