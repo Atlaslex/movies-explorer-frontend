@@ -39,7 +39,7 @@ export const Register = (props) => {
         <Logo />
       </div>
       <div className='form__container form__container_type_auth'>
-        <div className='form__admin form__admin_type_auth'>
+        <div className='form__admin_type_auth'>
           <div className='form__container form__container_type_auth'>
             <h3 className='form__heading form__heading_type_auth'>
               Добро пожаловать!
