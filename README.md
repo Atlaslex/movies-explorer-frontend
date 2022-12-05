@@ -6,3 +6,5 @@ https://disk.yandex.ru/d/kAHNYaQXSLVWaQ
 
 Или перейти на дипломный домен:
 https://mov-exp-lex.students.nomoredomains.icu
+
+Ссылка на пулл реквест:
